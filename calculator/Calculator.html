@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        h1{ color: green;
+             font-size: 35px;
+              margin:auto;
+               text-align: center;
+             }
+        .main{ width: 25%;
+             margin:auto;
+             margin-top: 20px;
+              box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 20px 20px 20px 20px ;
+            
+        }
+        
+        .main>div:first-child {height:50px;width: 80%;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+             text-align: center;
+              margin: auto;margin-top: 20px;
+              border-radius: 12px;
+              margin-bottom: 10px;
+             }
+        
+        .main>div+div{display:flex;
+            padding-left:20px ;
+             padding-right: 20px;
+            }
+        .main>div+div>div{width:19%;
+            height: 40px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            text-align: center;
+            margin-top: 7px;
+            margin-bottom:20px;
+            margin: auto;
+            font-weight: bold;   
+            padding-top:20px;
+            /* padding-bottom: 20px; */
+            border-radius: 12px;   
+        }
+        .main>div+div+div>div{
+            margin-top: 7px;
+        }
+        .main>div+div>div:nth-last-child(1){
+            color: white;
+            background-color: black;
+        }
+        .main>div+div+div+div+div>div:first-child{
+            background-color: red;
+        }
+        .main>div+div+div+div+div>div:nth-child(3){
+            background-color: black;
+            color: white;
+        }
+        /* #start{
+            background-color: red;
+        }
+        #equal{
+            background-color: black;
+            color: white;
+        } */
+        
+    </style>
+</head>
+<body>
+    <h1>Masai Calculator</h1>
+    <div class="main">
+        <div></div>
+        <div>
+           <div>1</div>
+           <div>2</div>
+           <div>3</div>
+           <div>+</div>
+        </div>
+        <div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>-</div>
+         </div>
+         <div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>x</div>
+         </div>
+         <div>
+            <div>C</div>
+            <div>0</div>
+            <div>=</div>
+            <div>/</div>
+         </div>
+        
+    </div>
+</body>
+</html>
